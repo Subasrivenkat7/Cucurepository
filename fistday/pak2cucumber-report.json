@@ -1,0 +1,72 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-06-26T07:23:48.945Z",
+        "line": 4,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "login;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4223500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters \"suba\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"suba\"",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginStep.user_enters(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3999000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user password \"lashd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lashd\"",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginStep.user_password(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 556700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click login",
+            "match": {
+              "location": "LoginStep.click_login()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:packagee2/login1.feature",
+    "tags": []
+  }
+]

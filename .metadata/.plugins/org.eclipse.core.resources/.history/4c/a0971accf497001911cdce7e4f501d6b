@@ -1,0 +1,13 @@
+
+Feature:Login
+  @smoke 
+   Scenario :1
+   
+   Given user enters "suba"
+    When user password "lashd"
+   
+    @login
+  Scenario: 2
+ 			
+       And click login
+     

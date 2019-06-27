@@ -1,0 +1,13 @@
+
+
+Feature: Account
+ 
+
+  Scenario: Creation
+  
+    Given I want to create account
+    When user enter details
+
+      | name  | value | status  |
+      | name1 |     5 | success |
+      | name2 |     7 | Fail    |

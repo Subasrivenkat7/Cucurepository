@@ -1,0 +1,14 @@
+
+Feature: User Login
+  
+  Scenario outline:multiple user Login
+    Given I want to enter "<username>"
+    When I want to enter"<password>"
+    Then the page is displayed
+    
+
+    Examples: 
+    
+      | Username | password |
+      | sam			 |     abc@123 |
+      | ram			 |     cba@321 | 

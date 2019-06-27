@@ -1,0 +1,18 @@
+Feature: Login
+   @smoke @login
+   Scenario:1
+   
+   Given user enters "suba"
+    When user password "lashd"
+   
+    @smoke
+  Scenario: 2
+ 			
+       And click login
+       
+   @second
+   
+   Scenario: 3
+   	Given  user entering  "foodname"
+   	when user enters "parotta"
+     

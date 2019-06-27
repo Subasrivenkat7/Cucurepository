@@ -1,0 +1,15 @@
+package packagee2;
+
+	import org.junit.runner.RunWith;
+
+	import cucumber.api.CucumberOptions;
+	import cucumber.api.junit.Cucumber;
+
+	@RunWith(Cucumber.class)
+	//@CucumberOptions(monochrome=true,plugin={"pretty","json:pak2cucumber-report.json"})
+	@CucumberOptions(monochrome=true,tags="@login")
+	public class Runner {
+
+	}
+
+

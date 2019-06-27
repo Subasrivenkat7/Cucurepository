@@ -1,0 +1,9 @@
+
+Feature:Login
+ 
+  Scenario: Title of your scenario
+  @smoke
+    Given user enters "suba"
+    When user password "lashd"
+    @login
+    And click login

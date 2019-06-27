@@ -1,0 +1,72 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2019-06-26T06:30:25.735Z",
+        "line": 5,
+        "name": "Success",
+        "description": "",
+        "id": "login;success",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3398900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Users enters username",
+            "match": {
+              "location": "LoginStep.users_enters_username()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 476500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter password",
+            "match": {
+              "location": "LoginStep.user_enter_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1329600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on login button",
+            "match": {
+              "location": "LoginStep.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1131600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Homepage is displayed",
+            "match": {
+              "location": "LoginStep.homepage_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:cucu/fistday/Login.feature",
+    "tags": []
+  }
+]

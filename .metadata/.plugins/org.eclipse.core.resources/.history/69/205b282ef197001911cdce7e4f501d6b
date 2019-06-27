@@ -1,0 +1,7 @@
+
+Feature:Login
+ 
+  Scenario: Title of your scenario
+    Given user enters "suba"
+    When user password "lashd"
+    And click login
